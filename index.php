@@ -1,12 +1,14 @@
 <?php
-$age = 20;
+$age = 5;
 
 
 if ($age >= 18) { 
-    $answer = "Děkujeme za váš nákup"
+    $answer = "Děkujeme za váš nákup";
+    $image = "https://www.alkohol.cz/images/preview/thumb_340_380_1415796458_belveder-3l.jpg";
 }
 else {
-    $answer = "Na alkohol jsi moc mladý"
+    $answer = "Na alkohol jsi moc mladý";
+    $image = "https://images-na.ssl-images-amazon.com/images/I/612QR%2BbKZ6L._AC_SY450_.jpg";
 }
 ?>
 
@@ -18,6 +20,10 @@ else {
     <title>Document</title>
 </head>
 <body>
+<h1> <?= $age ?> </h1>
+
 <?= $answer; ?>
+<img src= <?= $image ?> alt="Alcohol"
+
 </body>
 </html>
