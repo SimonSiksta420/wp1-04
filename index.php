@@ -20,10 +20,10 @@ else {
     <title>Document</title>
 </head>
 <body>
-<h1> Věk chlapce <?= $age ?> </h1>
+<h1> Věk chlapce: <?= $age ?> </h1>
 
 <?= $answer; ?>
-<img src= <?= $image ?> alt="Alcohol" width="300" height="300"
+<img src= <?= $image; ?> alt="Alcohol" width="300" height="300"
 
 </body>
 </html>
